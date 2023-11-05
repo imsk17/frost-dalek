@@ -33,6 +33,7 @@ harness = false
 
 [features]
 default = ["std", "u64_backend"]
+no_std = ["alloc", "u64_backend"]
 
 nightly = ["curve25519-dalek/nightly", "ed25519-dalek/nightly"]
 std = ["curve25519-dalek/std", "ed25519-dalek/std"]
